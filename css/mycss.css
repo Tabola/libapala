@@ -1,0 +1,210 @@
+.folderlink{
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(200, 200, 200, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.folderlink b{
+  color: black;
+}
+.errorcolor{
+  color: red;
+  border-color: red;
+}
+.folderlink:hover{
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(150, 150, 150, 0.2);
+  -webkit-box-shadow: 8px 8px 15px 13px rgba(0,0,0,0.2);
+  -moz-box-shadow: 8px 8px 15px 13px rgba(0,0,0,0.2);
+  box-shadow: 8px 8px 15px 13px rgba(0,0,0,0.2);
+}
+#fixed-img{
+  background-image: url('../img/higherself/Banner-2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#fixed-img3{
+  background-image: url('../img/higherself/About-Slide2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#fixed-img4{
+  background-image: url('../img/higherself/About-Slide2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+#fixed-img2{
+  background-image: url('../img/higherself/Banner-2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80px;
+}
+.white-text{
+  color: rgba(255,255,255,0.8);
+}
+.scrollbtn{
+  background-color:transparent;border: none;decoration:none;padding:10px 10px 10px 10px;
+}
+.scrollbtn:hover{
+  background-color:rgba(58, 36, 97, 0.2);
+}
+.quote{
+  border-left: 2px solid rgba(108, 36, 97, 0.9);
+  padding:20px;
+  color:#6c1461;
+}
+.blog{
+  border-left: 2px solid rgba(108, 36, 97, 0.9);
+  border-right: 2px solid rgba(108, 36, 97, 0.9);
+  padding:20px;
+  color:#6c1461;
+}
+.quote-author{
+  color:rgba(0,0,0,0.3);
+}
+.box-shadow{
+  -webkit-box-shadow: 8px 8px 23px 13px rgba(0,0,0,0.47);
+  -moz-box-shadow: 8px 8px 23px 13px rgba(0,0,0,0.47);
+  box-shadow: 8px 8px 23px 13px rgba(0,0,0,0.47);
+}
+.graph-container-box-shadow{
+  -webkit-box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.17);
+  -moz-box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.17);
+  box-shadow: 10px 10px 20px 2px rgba(0,0,0,0.17);
+  border-radius: 2px;
+  padding: 15px 5px 0px 5px;
+}
+.mynav-box-shadow{
+  -webkit-box-shadow: 2px 4px 15px 5px rgba(0,0,0,0.38);
+  -moz-box-shadow: 2px 4px 15px 5px rgba(0,0,0,0.38);
+  box-shadow: 2px 4px 15px 5px rgba(0,0,0,0.38);
+}
+/* .gap100{
+  padding: 70px 0px;
+} */
+.group {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px; }
+  .group select{
+    background: transparent;
+    font-size: 14px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #1088c3;
+  }
+  .group select:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  .group input,
+  .group textarea {
+    font-size: 14px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    border-color: #1088c3; }
+    .group input:focus,
+    .group select:focus,
+    .group textarea:focus {
+      outline: none;
+      box-shadow: none; }
+  .group label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 5px;
+    transition: 0.5s ease all;
+    font-family: "Ubuntu", sans-serif; }
+  .group .bar {
+    position: relative;
+    display: block;
+    width: 100%; }
+    .group .bar:before, .group .bar:after {
+      content: '';
+      height: 2px;
+      width: 0;
+      bottom: 1px;
+      position: absolute;
+      background-color: #ffffff;
+      transition: 0.5s ease all; }
+    .group .bar:before {
+      left: 50%; }
+    .group .bar:after {
+      right: 50%; }
+  .group .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5; }
+  .group textarea {
+    min-height: 90px; }
+
+/* Form Active State */
+input:focus ~ label,
+select:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+select:valid ~ label,
+textarea:valid ~ label {
+  top: -15px;
+  font-size: 12px;
+  color: #0088c3; }
+
+input:focus ~ .bar:before,
+select:focus ~ .bar:before,
+textarea:focus ~ .bar:before,
+input:focus ~ .bar:after,
+select:focus ~ .bar:after,
+textarea:focus ~ .bar:after {
+  width: 50%; }
+
+
+input:focus ~ .highlight,
+select:focus ~ .highlight,
+textarea:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease; }
+
+/* Animations */
+@-webkit-keyframes inputHighlighter {
+  from {
+    background-color: #000000; }
+  to {
+    width: 0;
+    background-color: transparent; } }
+@-moz-keyframes inputHighlighter {
+  from {
+    background-color: #000000; }
+  to {
+    width: 0;
+    background-color: transparent; } }
+@keyframes inputHighlighter {
+  from {
+    background-color: #000000; }
+  to {
+    width: 0;
+    background-color: transparent; } }
