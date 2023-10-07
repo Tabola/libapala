@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="higherself">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>LBA Group of Companies</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="LIKATOLA 6 3D - Copy.png">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mycss.css">
+    <!-- <link rel="stylesheet" href="./node_modules/angular-sweetalert/node_modules/sweetalert/lib/sweet-alert.css"> -->
+
+    <!-- angularJS dependencies start -->
+    <!-- angularJS dependencies start -->
+    <!-- <script src="./angularjs/angular.min.js"></script>
+    <script src="./angularjs/angular-route.min.js"></script>
+    <script src="./node_modules/angular-sweetalert/node_modules/sweetalert/lib/sweet-alert.min.js"></script>
+    <script src="./node_modules/angular-sweetalert/SweetAlert.min.js"></script> -->
+    <!-- angularJS dependencies start -->
+    <!-- <script src="./app.js"></script>
+    <script src="./components/directives/dashboard-directives.js"></script>
+    <script src="./components/controllers/index-ctrl.js"></script>
+    <script src="./components/services/user-services.js"></script> -->
+
+
+</head>
+
+<body>
+  <div ng-controller="landingCtrl">
+
+        <!-- Preloader Start -->
+        <div id="preloader">
+            <div class="preload-content">
+                <div id="world-load"></div>
+            </div>
+        </div>
+        <!-- Preloader End -->
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg  box-shadow">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="index.html"><img src="LIKATOLA 6 3D.png" style="width:100px" alt="Logo"></a>
+                            <!-- Navbar Toggler -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Navbar -->
+                            <div class="collapse navbar-collapse" id="worldNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="profile.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="profile.html">About US</a>
+                                            <a class="dropdown-item" href="mystory.html">Staff</a>
+                                        </div>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about" >About</a>
+                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#services">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#projects">Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#vacancies">Vacancies</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contacts">Contact US</a>
+                                    </li>
+                                    
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Login</a>
+                                    </li> -->
+                                </ul>
+                                <!-- Search Form  -->
+                                <div id="search-wrapper">
+                                    <form action="#">
+                                        <input type="text" id="search" placeholder="Search Programs..." disabled>
+                                        <div id="close-icon"></div>
+                                        <input class="d-none" type="submit" value="">
+                                    </form>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+
+        <!-- ********** Hero Area Start ********** -->
+        <div class="hero-area">
+
+            <!-- Hero Slides Area -->
+            <div class="hero-slides owl-carousel header-filter clear-filter purple-filter">
+              <!-- <div class="owl-nav">
+                <div class="owl-prev">prev</div>
+                <div class="owl-next">next</div>
+              </div> -->
+                <!-- Single Slide -->
+                <div class="single-hero-slide slide-img bg-img background-overlay " style="height: 450px;">
+                  <div class="slide-img bg-img" style="background-image: url(Logo\ 3\ Samples.jpg);"></div>
+                  <!-- Slide Content -->
+                  <div class="hero-slides-content text-center" >
+                    <h3 data-animation="fadeInUp" data-delay="150ms"><b style="color: yellow;">L</b>i<b style="color: blue;">b</b>apal<b style="color: #d1d1d1;">a</b> <b style="font-size: 30%;color: beige;">(Group Of Companies)</b></h3>
+                    <p data-animation="fadeInUp" data-delay="300ms" style="color:#dc2461;">
+                        Best Quality Services you can at lower price ratings and on time.<br/>
+                        <div class="col-md-12 text-center" style="top:50%;">
+                            <button type="button" class="btn btn-primary box-shadow col-md-3 quote " id="scrollDown">View Services<br><i class="fa fa-angle-down" style="Width:25px;font-size:25px;color:white"></i></button>
+                        </div>
+                    </p>
+                      
+                  </div>
+                  <!-- Big Text -->
+                  <!-- <h2 class="big-text">LNDB</h2> -->
+                </div>
+                <!-- Single Slide -->
+                <div class="single-hero-slide slide-img bg-img background-overlay" style="height: 450px;">
+                  <div class="slide-img bg-img " style="background-image: url(LIKATOLA\ 6\ 3D.png); "></div>
+                  <!-- Slide Content -->
+                  <div class="hero-slides-content text-center" >
+                      <h4 data-animation="fadeInUp" data-delay="150ms">At Libapala, we pride ourselves with excellents service delivery</h4>
+                    <p data-animation="fadeInUp" data-delay="300ms" style="color:#dc2461;">
+                        It is our calling to cooperate and co-create with our clients and unearth magnificence so that their goals can be fulfilled. <br/>
+                        <div class="col-md-12 text-center" style="top:50%;">
+                            <button type="button" class="btn btn-primary box-shadow col-md-3 quote " id="scrollDown">Contact US here<br><i class="fa fa-angle-down" style="Width:25px;font-size:25px;color:white"></i></button>
+                        </div>
+                    </p>
+                  </div>
+                  <!-- Big Text -->
+                  <!-- <h2 class="big-text">LNDB</h2> -->
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- ********** Hero Area End ********** -->
+
+        <div class="main-content-wrapper section-padding-50">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- ============= Post Content Area Start ============= -->
+                    <div class="col-12 col-lg-7">
+                        <div class="post-content-area" style="margin-top: 0px;" >
+
+                            <!-- Catagory Area -->
+                            <div class="world-catagory-area" >
+                                
+
+                                <div class="tab-content" id="myTabContent2" style="padding: 0px;">
+
+                                    <div class="world-latest-articles">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-12">
+                                                <div class="title" style="margin: 10px;" id="projects">
+                                                    <p><br></p>
+                                                    <p><br></p>
+                                                    <h5>Projects</h5>
+                                                </div>
+                    
+                                                <!-- Single Blog Post -->
+                                                <div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
+                                                    <!-- Post Thumbnail -->
+                                                    <div class="post-thumbnail">
+                                                        <img src="img/blog-img/b18.jpg" alt="">
+                                                    </div>
+                                                    <!-- Post Content -->
+                                                    <div class="post-content">
+                                                        <a href="#" class="headline">
+                                                            <h5>Construction at somewhere</h5>
+                                                        </a>
+                                                        <p>Still on going and might take 6 to 7 months. Started 2 months ago </p>
+                                                        <!-- Post Meta -->
+                                                        <div class="post-meta">
+                                                            <p><a href="#" class="post-author">Libapala</a> on <a href="#" class="post-date">Sep 29, 2023 at 9:48 am</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <!-- Single Blog Post -->
+                                                <div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.3s">
+                                                    <!-- Post Thumbnail -->
+                                                    <div class="post-thumbnail">
+                                                        <img src="img/blog-img/b19.jpg" alt="">
+                                                    </div>
+                                                    <!-- Post Content -->
+                                                    <div class="post-content">
+                                                        <a href="#" class="headline">
+                                                            <h5>Construction at somewhere</h5>
+                                                        </a>
+                                                        <p>Still on going and might take 6 to 7 months. Started 2 months ago </p>
+                                                        <!-- Post Meta -->
+                                                        <div class="post-meta">
+                                                            <p><a href="#" class="post-author">Libapala</a> on <a href="#" class="post-date">Sep 29, 2023 at 9:48 am</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <!-- Single Blog Post -->
+                                                <div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.4s">
+                                                    <!-- Post Thumbnail -->
+                                                    <div class="post-thumbnail">
+                                                        <img src="img/blog-img/b20.jpg" alt="">
+                                                    </div>
+                                                    <!-- Post Content -->
+                                                    <div class="post-content">
+                                                        <a href="#" class="headline">
+                                                            <h5>Construction at somewhere</h5>
+                                                        </a>
+                                                        <p>Still on going and might take 6 to 7 months. Started 2 months ago </p>
+                                                        <!-- Post Meta -->
+                                                        <div class="post-meta">
+                                                            <p><a href="#" class="post-author">Libapala</a> on <a href="#" class="post-date">Sep 29, 2023 at 9:48 am</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                    
+                                                <!-- Single Blog Post -->
+                                                <div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.5s">
+                                                    <!-- Post Thumbnail -->
+                                                    <div class="post-thumbnail">
+                                                        <img src="img/blog-img/b21.jpg" alt="">
+                                                    </div>
+                                                    <!-- Post Content -->
+                                                    <div class="post-content">
+                                                        <a href="#" class="headline">
+                                                            <h5>Construction at somewhere</h5>
+                                                        </a>
+                                                        <p>Still on going and might take 6 to 7 months. Started 2 months ago </p>
+                                                        <!-- Post Meta -->
+                                                        <div class="post-meta">
+                                                            <p><a href="#" class="post-author">Libapala</a> on <a href="#" class="post-date">Sep 29, 2023 at 9:48 am</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ========== Sidebar Area ========== -->
+                    <div class="col-12 col-md-8 col-lg-5" id="services">
+                        <div class="post-sidebar-area wow fadeInUpBig" data-wow-delay="0.2s">
+                            <div class="sidebar-widget-area">
+                                <div class="title">
+                                  <h5 style="color:#dc2461;">What We Do</h5>
+                                  <p><br></p>
+                                  <h3>Our Services</h3>
+                                </div>
+  
+                                    <div class="widget-content">
+                                      <p>At Libapala Group of Companies, we offer the following services:</p>
+                                      <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Constuction</p>
+                                      <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Electricity</p>
+                                      <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Plumbing</p>
+                                      <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Others</p>
+                                    </div>
+                              </div>
+                            <!-- Widget Area -->
+                            <div class="sidebar-widget-area" id="about">
+                                <p><br></p>
+                                <p><br></p>
+                                <h5 class="title"  style="color:#dc2461;">About Us</h5>
+                                <div class="widget-content">
+                                    <p>Opening hours</p>
+                                    <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Weekdays : 0800hrs - 1700hrs</p>
+                                    <p><i class="fas fa-check-circle" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Weekends : 0800hrs - 1400hrs</p>
+                                    <p><i class="fas fa-map-marker" style="color:#dc2461; margin:10px 10px 10px 0px"></i>Location: Khubetsoana</p>
+                                    <p>At At Libapala Group of Companies, we hire the best qualified exceptional staff and institutions to achieve the best results from the tasks at hand.</p>
+                                    <p>Higher Self specialises in Career, Executive and Leadership Training and Coaching and works with tertiary students, job seekers in transition, mid-life career change professionals, executives and leaders using a variety of exciting, value-adding tools and methodologies to achieve their purpose and goals at all levels.</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Widget Area -->
+                            <div class="sidebar-widget-area" id="vacancies">
+                                <h5 class="title">Avalable Vacancies</h5>
+                                <div class="widget-content">
+                                    <div class="alert alert-warning">
+                                        There are no available vacancies...
+                                    </div>
+                                    <!-- Single Blog Post -->
+                                    <!-- <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                        
+                                        <div class="post-thumbnail">
+                                            <img src="img/blog-img/b11.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="#" class="headline">
+                                                <h5 class="mb-0">How Did van Gogh’s Turbulent Mind Depict One of the Most</h5>
+                                            </a>
+                                        </div>
+                                    </div> -->
+                                    
+                                </div>
+                            </div>
+                            <!-- Widget Area -->
+                            <div class="sidebar-widget-area" id="contacts">
+                                <h5 class="title">Stay Connected with us on this social media links</h5>
+                                <div class="widget-content">
+                                    <div class="social-area d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="fa fa-vimeo"></i></a>
+                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                        <a href="#"><i class="fa fa-google"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ***** Footer Area Start ***** -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="footer-single-widget">
+                            <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                            <div class="copywrite-text mt-30">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="footer-single-widget">
+                            <ul class="footer-menu d-flex justify-content-between">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#vacancies">Vacancies</a></li>
+                                <li><a href="#contacts">Contact US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="section">
+        <div id="applicdal" class="modal fade" role="dialog">
+          <div class="modal-dialog" >
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Program Application</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+
+                <div class="col-12 " >
+                    <div class="group">
+                        <input type="text" ng-model="name" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Enter Your Name</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                        <input type="text" ng-model="surname" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Enter Your Surname</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                      <select name="apply" ng-model="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Gender</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                      <select name="apply" ng-model="program">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                      </select>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Choose Program</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                        <input type="email" ng-model="email">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Enter Email Address</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                        <input type="text" ng-model="phone">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Enter Phone Number</label>
+                    </div>
+                </div>
+                <div class="col-12 " >
+                    <div class="group">
+                        <input type="file" file-input="files" placeholder="Choose file"/> 
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Attach required files as one file e.g in pdf/word</label>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-default" ng-click="send_application()">Send Application</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    <div class="section">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+            <div class="modal-dialog " role="document" >
+                <div class="modal-content " >
+                    <div class="modal-header">
+                        <h5 class="modal-title" >LOGIN </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="material-icons" >X</i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container mycontact-form" >
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div ng-hide="otp!=='0'">
+                                          <form class="form" ng-submit="submit()">
+
+                                                <div class="col-12 " >
+                                                    <div class="group">
+                                                        <input type="text" ng-model="username" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Enter your username</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 ">
+                                                    <div class="group">
+                                                        <input type="password" ng-model="password" >
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Enter your password</label>
+                                                    </div>
+                                                </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" ng-model='forgot' type="checkbox">
+                                                    <span class="form-check-sign">
+                                                        <span class="check"></span>
+                                                    </span>
+                                                    I have forgotten my password
+                                                </label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12" >
+                                                    <!--alert from register-->
+                                                    <div class="alert alert-danger" ng-show="login_msg!==''">
+                                                      <strong>Wrong Username or Password!</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p><br/></p>
+                                            <div class="text-center">
+                                                <input type="submit" class="btn btn-warning col-md-12" value="Signin"/>
+
+                                            </div>
+
+                                          </form>
+                                            <p style="float:right;"> <b style="color:black;">Don't Have An Account?</b> <a href="register_as.php" class="a-impro">Register</a></p>
+                                        </div>
+                                        <div ng-hide="otp!=='1'">
+                                          <form class="form" ng-submit="otp_request_submit()">
+
+                                                <div class="col-12 " >
+                                                  <h4>Reset password!</h4>
+                                                    <div class="group">
+                                                        <input type="email" ng-model="otp_request_email" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Enter your email to get reset-code</label>
+                                                    </div>
+                                                </div>
+
+
+                                            <div class="row">
+                                                <div class="col-md-12" >
+                                                    <!--alert from register-->
+                                                    <div class="alert alert-danger" ng-show="otp_request_email_msg!==''">
+                                                      <strong>{{otp_request_email_msg}}</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p><br/></p>
+                                            <div class="text-center">
+                                                <input type="submit" class="btn btn-warning col-md-12" value="Signin"/>
+
+                                            </div>
+
+                                        </form>
+                                        </div>
+                                        <div ng-hide="otp!=='2'">
+                                          <form class="form" ng-submit="otp_submit()">
+
+                                                <div class="col-12 " >
+                                                  <h4>Reset password!</h4>
+                                                    <div class="group">
+                                                        <input type="number" ng-model="otp_code" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Enter your email to get reset-code</label>
+                                                    </div>
+                                                </div>
+
+
+                                            <div class="row">
+                                                <div class="col-md-12" >
+                                                    <!--alert from register-->
+                                                    <div class="alert alert-danger" ng-show="otp_code_msg!==''">
+                                                      <strong>Wrong OTP!</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p><br/></p>
+                                            <div class="text-center">
+                                                <input type="submit" class="btn btn-warning col-md-12" value="Signin"/>
+
+                                            </div>
+
+                                          </form>
+                                        </div>
+                                        <div ng-hide="otp!=='3'">
+                                          <form class="form" ng-submit="reset_password()">
+
+                                                <div class="col-12 " >
+                                                    <div class="group">
+                                                        <input type="password" ng-model="new_password" required>
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Enter your new password</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 ">
+                                                    <div class="group">
+                                                        <input type="password" ng-model="confirm_new_password" >
+                                                        <span class="highlight"></span>
+                                                        <span class="bar"></span>
+                                                        <label>Confirm your new password</label>
+                                                    </div>
+                                                </div>
+                                            <div class="row">
+                                                <div class="col-md-12" >
+                                                    <!--alert from register-->
+                                                    <div class="alert alert-danger" ng-show="reset_password_msg!==''">
+                                                      <strong>{{reset_password_msg}}</strong>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p><br/></p>
+                                            <div class="text-center">
+                                                <input type="submit" class="btn btn-warning col-md-12" value="Signin"/>
+
+                                            </div>
+
+                                          </form>
+                                      </div>
+                                    </div>
+                                </div>
+                </div>
+                    </div>
+                    <div class="modal-footer mycontact-form">
+                        <h2>HIGHERSELF</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+    <!-- ***** Footer Area End ***** -->
+
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+
+
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <!-- <script ng-hide>alert("jksfjvj");</script> -->
+
+
+
+</body>
+
+</html>
